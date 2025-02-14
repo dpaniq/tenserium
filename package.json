@@ -1,5 +1,5 @@
 {
-  "name": "baam",
+  "name": "tenserium",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:baam": "node dist/baam/server/server.mjs"
+    "serve:ssr:tenserium": "node dist/tenserium/server/server.mjs"
   },
   "private": true,
   "dependencies": {
