@@ -1,0 +1,19 @@
+:host {
+  margin: 0;
+  padding: 0;
+
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  img {
+    width: 100%;
+    opacity: 0.5;
+    object-fit: none;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

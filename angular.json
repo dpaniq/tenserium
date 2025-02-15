@@ -5,7 +5,38 @@
   "projects": {
     "tenserium": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "inlineStyle": true,
+          "inlineTemplate": true,
+          "skipTests": true,
+          "flat": true
+        },
+        "@schematics/angular:pipe": {
+          "flat": true,
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "flat": true,
+          "skipTests": true
+        },
+        "@schematics/angular:directive": {
+          "flat": true,
+          "skipTests": true
+        },
+        "@schematics/angular:guard": {
+          "flat": true,
+          "skipTests": true
+        },
+        "@schematics/angular:resolver": {
+          "flat": true,
+          "skipTests": true
+        },
+        "@schematics/angular:interceptor": {
+          "flat": true,
+          "skipTests": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",

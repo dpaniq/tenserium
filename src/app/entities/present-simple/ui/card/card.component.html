@@ -1,0 +1,11 @@
+<div class="container" (click)="navigateToLearnPage()">
+  <img
+    src="assets/tenses/present-simple/tenserium.present-simple.static.drawio.svg"
+    alt="present-simple-tense"
+  />
+
+  <div class="actions">
+    <button [routerLink]="['/', 'present-simple', 'learn']">Learn more</button>
+    <button [routerLink]="['/', 'present-simple', 'exam']">Exam</button>
+  </div>
+</div>
