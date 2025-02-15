@@ -28,4 +28,4 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: bitovi/github-actions-angular-to-github-pages@v1.0.0
         with:
-          path: dist # Adjust to your project's output directory
+          path: dist/browser # Adjust to your project's output directory
